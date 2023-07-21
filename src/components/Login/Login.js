@@ -12,16 +12,15 @@ const Login = (props) => {
   const [passwordIsValid, setPasswordIsValid] = useState();
   const [formIsValid, setFormIsValid] = useState(false);
 
-  {
-    /*
-    useEffect(() => {
-    console.log('checking form validity!')
-    setFormIsValid(
-      enteredEmail.includes("@") && enteredPassword.trim().length > 6
-    );
-  }, [enteredEmail, enteredPassword]);
-*/
-  } // above useEfect function runs for every keystrokes
+
+  
+  //   useEffect(() => {
+  //   console.log('checking form validity!')
+  //   setFormIsValid(
+  //     enteredEmail.includes("@") && enteredPassword.trim().length > 6
+  //   );
+  // }, [enteredEmail, enteredPassword]);
+ // above useEfect function runs for every keystrokes
   // if second argrument is neglected then the useEffect function will be re-render when the component was re-evaluated
 
   useEffect(() => {
