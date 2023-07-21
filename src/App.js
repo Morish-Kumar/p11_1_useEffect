@@ -7,13 +7,13 @@ import MainHeader from "./components/MainHeader/MainHeader";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  {/*  
-  const storedUserLoggedInInformation = localStorage.getItem('isLoggedIn')
+ 
+  // const storedUserLoggedInInformation = localStorage.getItem('isLoggedIn')
 
-  if(storedUserLoggedInInformation === '1'){
-    setIsLoggedIn(true)
-  }
-*/}
+  // if(storedUserLoggedInInformation === '1'){
+  //   setIsLoggedIn(true)
+  // }
+
   // problem with above multi line comment is that the it will re-render when the Component re-runs
 
   useEffect(() => {
