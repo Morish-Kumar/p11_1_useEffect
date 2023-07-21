@@ -1,0 +1,13 @@
+Effect, reducer and context - advanced but easy concept
+
+Module introduction - working with state(side) effects
+Managing multiple complex state with reducer
+Managing App wide component with context.
+
+
+what is effect??
+main job of effect - render UI and react to User Input, evaluate and render JSX, Managing state and props, react to User Input, re-evaluate upon state and props changes
+
+Side Effect- everything except main job of effect, store data in a browser, send HTTP request to backend server, set and manage time.
+
+UseEfect hooks - built in hooks, effect hook is called with two parameter, the first argument is a function that should be executed after every component evalution is specified dependency changes, second argument is an array full of dependency
